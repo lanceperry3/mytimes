@@ -1,6 +1,22 @@
 
 
 
+
+/* universal Styles
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  font-family: 'Georgia';
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  text-align:  center;
+  border: 1px solid black;
+}
+
+
 /* Header */
 header {
   display: flex;
@@ -21,7 +37,7 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding: 30px;
+
 }
 .logo img {
   width: 70px;
@@ -49,7 +65,7 @@ nav span {
   margin-bottom: 78px;
   margin-left: auto;
   padding-top: 116px;
-  border: 1px solid black;
+
 
 }
 
@@ -57,6 +73,9 @@ nav span {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+
+}
+div{
   border: 1px solid black;
 }
  /* Large Column */
@@ -65,9 +84,13 @@ nav span {
    width: 630px;
  }
 
+ /* medium Column */
+
  .column.medium {
    width: 300px;
  }
+
+ /* small Column */
 
  .column.small {
    width: 240px;
