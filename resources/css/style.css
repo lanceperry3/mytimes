@@ -6,4 +6,18 @@ header {
   display: flex;
   align-items: center;
   position: fixed;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+
+}
+header nav{
+  padding-right: 60px;
+
 }
